@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+    <h1>Tags importantes em HTML.</h1>
+    <ul>
+        <li>
+            Details/Summary
+        </li>
+        <li>
+            Datalist/Option 
+        </li>
+        <li>
+            Progress
+        </li>
+        <li>
+            Color
+        </li>
+    </ul>
+    <h2>Primeira Tag: Details/Summary</h2>
+    <p>Podemos citar um parágrafo que pode ser selecionado pelo usuário, e caso não queira mais ler, é só fechar.</p>
+    <p>Vamos aos exemplos:</p>
+    <details>
+        <summary>Família</summary>
+        <p>O conjunto de pessoas que possuem grau de parentesco ou laços afetivos e vivem na mesma casa formando um lar</p>
+    </details>
+    <details>
+        <summary>Lar</summary>
+        <p> Lugar onde vive uma família; habitação, casa. </p>
+    </details>
+    <details>
+        <summary>Amizade</summary>
+        <p>É o relacionamento que as pessoas têm de afeto e carinho por outra, que possuem um sentimento de lealdade, proteção etc.</p>
+    </details>
+    <h2>Segunda Tag: Datalist/Option</h2>
+    <p>Se trata de um <strong>Input</strong> que seleciona opções pré escritas pelo desenvolvedor, e que em quanto o usuário digita aparece opções mais relevantes. É necessário que o <strong>Input</strong> tenha a opção <strong>List</strong> e que seja igual o <strong>ID</strong> do <strong>Datalist.</strong></p>
+    <p>Vamos ao exemplo:</p>
+    <label for="Semana">Dias da Semana</label>
+    <input list="week" id="Semana">
+    <datalist id="week">
+        <option value="Domingo"></option>
+        <option value="Segunda"></option>
+        <option value="Terça"></option>
+        <option value="Quarta"></option>
+        <option value="Quinta"></option>
+        <option value="Sexta"></option>
+        <option value="Sábado"></option>
+    </datalist>
+    <h2>Terceira Tag: Progress</h2>
+        <p>Essa Tag oferece ao desenvolvedor realizar uma barra de progresso, com a medida de sua preferência.</p>
+        <p>Vamos aos exemplos:</p>
+        <p>Uma barra 50% completa: <progress value="50" max="100"></p>
+        <p>Uma barra 75% completa: <progress value="75" max="100"></p>
+        <p>Uma barra 100% completa: <progress value="100" max="100"></p>
+    <h2>Quarta Tag: Color</h2>
+    <p>Para finalizar, a Tag Color do input serve para que o usuário possa escolher a cor pelo painel de opções.</p>
+    <p>Vamos ao exemplo:</p>
+    <p>Escolha uma cor: <input type="color" name="" id=""></p>
+</body>
+</html>
